@@ -1,4 +1,9 @@
-
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
 /* Importing webfonts */
 /* (If you're learning CSS, you should disregard that) */
 
@@ -56,11 +61,11 @@ table {
 
 /* Fonts and colors */
 
-body {
-	font-family: 'Josefin Sans', serif;
-	color: rgba(0, 0, 0, 0.8);
-}
-h1, h2, h3, h4, h5, h6, header {
+64 body {
+65     background-color: yellow !important; /* TEMPORARY ADDITION */
+66     font-family: 'Josefin Sans', serif;
+67     color: rgba(0, 0, 0, 0.8);
+68 }
 	font-family: 'Yeseva One', sans-serif;
 }
 article {
@@ -188,14 +193,14 @@ h6 {
 	margin: 5px 0;
 }
 
-@media (max-width: 800px) {
-  body.works_on_smartphone {
-  	display: block;
-  }
-  body.works_on_smartphone main {
-  	display: block;
-  }
-  header .right {
-  	float: none;
-  }
-}
+196 @media (max-width: 800px) {
+197     body.works_on_smartphone {
+198         display: block;
+199     }
+200     body.works_on_smartphone main {
+201         display: block;
+202     }
+203     header .right {
+204         float: none;
+205     }
+206 }
